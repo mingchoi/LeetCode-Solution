@@ -1,4 +1,4 @@
-const ListNode = require("./listnode");
+import ListNode from "./listnode";
 
 describe("ListNode.FromArry", () => {
   it("should generate array", () => {

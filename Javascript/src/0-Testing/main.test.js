@@ -1,4 +1,4 @@
-import add from "./add";
+import add from "./main";
 
 describe("add", () => {
   it("should add two numbers", () => {

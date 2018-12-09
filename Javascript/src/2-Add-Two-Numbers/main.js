@@ -1,6 +1,7 @@
-const ListNode = require("./listnode");
+// @flow
+import ListNode from "./listnode";
 
-var addTwoNumbers = function(l1, l2) {
+var addTwoNumbers = function(l1: ListNode, l2: ListNode) {
   let head = new ListNode(0);
   let current = head;
   let carry = 0;
@@ -8,12 +9,12 @@ var addTwoNumbers = function(l1, l2) {
   p.next = l1;
   let q = new ListNode(0);
   q.next = l2;
-  while (p.next !== null || q.next !== null || carry === 1) {
+  while (p.next !== undefined || q.next !== undefined || carry === 1) {
     let sum = 0;
-    if (p.next !== null) {
+    if (p.next !== undefined) {
       sum += p.next.val;
     }
-    if (q.next !== null) {
+    if (q.next !== undefined) {
       sum += q.next.val;
     }
     sum += carry;
@@ -24,10 +25,10 @@ var addTwoNumbers = function(l1, l2) {
     }
     current.next = new ListNode(sum);
     current = current.next;
-    if (p.next !== null) {
+    if (p.next !== undefined) {
       p = p.next;
     }
-    if (q.next !== null) {
+    if (q.next !== undefined) {
       q = q.next;
     }
   }
@@ -35,4 +36,4 @@ var addTwoNumbers = function(l1, l2) {
   return head.next;
 };
 
-module.exports = addTwoNumbers;
+export default addTwoNumbers;

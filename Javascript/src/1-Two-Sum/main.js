@@ -1,9 +1,5 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var twoSum = function(nums, target) {
+// @flow
+var twoSum = function(nums: number[], target: number[]): number[] {
   for (let i = 0; i < nums.length; i++) {
     for (let j = i + 1; j < nums.length; j++) {
       if (nums[i] + nums[j] === target) {
@@ -14,4 +10,4 @@ var twoSum = function(nums, target) {
   return [-1, -1];
 };
 
-module.exports = twoSum;
+export default twoSum;

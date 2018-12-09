@@ -1,10 +1,13 @@
+// @flow
 class ListNode {
-  constructor(x) {
+  val: number;
+  next: ListNode;
+
+  constructor(x: number) {
     this.val = x;
-    this.next = null;
   }
 
-  FromArray(arr) {
+  FromArray(arr: number[]) {
     if (arr.length < 1) {
       throw "Array must not be empty";
     }
@@ -18,4 +21,4 @@ class ListNode {
   }
 }
 
-module.exports = ListNode;
+export default ListNode;

@@ -1,4 +1,4 @@
-const twoSum = require("./main");
+import twoSum from "./main";
 
 describe("twoSum", () => {
   it("should add two numbers", () => {

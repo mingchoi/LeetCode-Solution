@@ -1,5 +1,5 @@
-const ListNode = require("./listnode");
-const addTwoNumbers = require("./main");
+import ListNode from "./listnode";
+import addTwoNumbers from "./main";
 
 describe("addTwoNumbers", () => {
   it("should add two numbers", () => {
