@@ -1,6 +1,6 @@
 // @flow
 
-let cache = {};
+let cache: any = {};
 export function isPalindromic(s: string): boolean {
   if (cache[s]) {
     return true;

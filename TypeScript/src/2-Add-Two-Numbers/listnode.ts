@@ -1,7 +1,7 @@
 // @flow
 class ListNode {
   val: number;
-  next: ListNode;
+  next: ListNode | undefined;
 
   constructor(x: number) {
     this.val = x;
@@ -11,7 +11,7 @@ class ListNode {
     if (arr.length < 1) {
       throw "Array must not be empty";
     }
-    let current = this;
+    let current: ListNode = this;
     this.val = arr[0];
     for (let i = 1; i < arr.length; i++) {
       current.next = new ListNode(arr[i]);

@@ -1,6 +1,6 @@
-// @flow
 function sum(a: number, b: number): number {
-  return a + b;
+  var result = a + b;
+  return result;
 }
 
 export default sum;
