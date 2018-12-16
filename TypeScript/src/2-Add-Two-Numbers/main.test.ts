@@ -1,4 +1,4 @@
-import ListNode from "./listnode";
+import ListNode from "../utils/listnode";
 import addTwoNumbers from "./main";
 
 describe("addTwoNumbers", () => {

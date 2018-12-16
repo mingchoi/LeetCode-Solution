@@ -1,5 +1,5 @@
 // @flow
-import ListNode from "./listnode";
+import ListNode from "../utils/listnode";
 
 var addTwoNumbers = function(l1: ListNode, l2: ListNode) {
   let head = new ListNode(0);

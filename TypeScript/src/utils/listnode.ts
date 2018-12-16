@@ -1,7 +1,7 @@
 // @flow
 class ListNode {
   val: number;
-  next: ListNode | undefined;
+  next?: ListNode;
 
   constructor(x: number) {
     this.val = x;
@@ -18,6 +18,17 @@ class ListNode {
       current = current.next;
     }
     return this;
+  }
+
+  ToArray(): number[] {
+    let arr: number[] = [];
+    arr.push(this.val);
+    let curr: ListNode = this;
+    while (curr.next != undefined) {
+      curr = curr.next;
+      arr.push(curr.val);
+    }
+    return arr;
   }
 }
 
