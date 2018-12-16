@@ -13,9 +13,8 @@ describe("removeNthFromEnd", () => {
   });
 
   it("should remove node", () => {
-    let expected = new ListNode(1);
     expect(removeNthFromEnd(new ListNode(0).FromArray([1]), 1)).toEqual(
-      expected
+      undefined
     );
   });
 });
