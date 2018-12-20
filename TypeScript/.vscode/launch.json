@@ -25,7 +25,7 @@
         "--inspect-brk",
         "node_modules/.bin/jest",
         "--runInBand",
-        "src/23-Merge-k-Sorted-Lists"
+        "src/42-Trapping-Rain-Water"
       ]
     }
   ]
