@@ -21,4 +21,29 @@ describe("isMatch", () => {
     expect(isMatch("acdcb", "a*c?b")).toBe(false);
   });
 
+  it("should isMatch two string", () => {
+    expect(isMatch("", "?")).toBe(false);
+  });
+
+  it("should isMatch two string", () => {
+    expect(isMatch("ho", "ho**")).toBe(true);
+  });
+
+  it("should isMatch two string", () => {
+    expect(
+      isMatch(
+        "abbabbbaabaaabbbbbabbabbabbbabbaaabbbababbabaaabbab",
+        "*aabb***aa**a******aa*"
+      )
+    ).toBe(true);
+  });
+
+  it("should isMatch two string", () => {
+    expect(
+      isMatch(
+        "aaaabaaaabbbbaabbbaabbaababbabbaaaababaaabbbbbbaabbbabababbaaabaabaaaaaabbaabbbbaababbababaabbbaababbbba",
+        "*****b*aba***babaa*bbaba***a*aaba*b*aa**a*b**ba***a*a*"
+      )
+    ).toBe(true);
+  });
 });

@@ -9,19 +9,13 @@
       "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceRoot}/src/index.ts",
-      "outFiles": [
-        "${workspaceRoot}/lib/index.js"
-      ]
+      "outFiles": ["${workspaceRoot}/lib/index.js"]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "Jest",
-      "args": [
-        "--inspect-brk",
-        "node_modules/.bin/jest",
-        "--runInBand"
-      ]
+      "args": ["--inspect-brk", "node_modules/.bin/jest", "--runInBand"]
     },
     {
       "type": "node",
@@ -31,7 +25,7 @@
         "--inspect-brk",
         "node_modules/.bin/jest",
         "--runInBand",
-        "src/53-Maximum-Subarray"
+        "src/44-Wildcard-Matching"
       ]
     }
   ]
