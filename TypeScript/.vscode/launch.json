@@ -25,7 +25,7 @@
         "--inspect-brk",
         "node_modules/.bin/jest",
         "--runInBand",
-        "src/44-Wildcard-Matching"
+        "src/55-Jump-Game"
       ]
     }
   ]
