@@ -10,6 +10,10 @@ describe("canJump", () => {
   });
 
   it("should canJump", () => {
+    expect(canJump([0])).toBe(true);
+  });
+
+  it("should canJump", () => {
     expect(
       canJump([
         2,
@@ -117,6 +121,6 @@ describe("canJump", () => {
         9,
         6
       ])
-    ).toBe(true);
+    ).toBe(false);
   });
 });
