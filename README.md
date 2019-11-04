@@ -1,3 +1,3 @@
-# LeetCode Solution for Typescript
+# LeetCode Solution
 
-Yet another leetcode solution on github. With Typescript. The solutions with be improved by time. Cheers!🎉
+Yet another leetcode solution on github. It might not be the best solution, but it is all solved by me. Cheers!🎉
