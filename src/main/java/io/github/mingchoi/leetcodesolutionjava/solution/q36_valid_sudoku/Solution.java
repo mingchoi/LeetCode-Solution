@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q36_valid_sudoku;
 
 import java.util.HashMap;
-
+/*
+Runtime: 3 ms, faster than 70.89% of Java online submissions for Valid Sudoku.
+Memory Usage: 43.9 MB, less than 81.16% of Java online submissions for Valid Sudoku.
+ */
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         for (int row = 0; row < 9; row++) {

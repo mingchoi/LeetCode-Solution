@@ -14,6 +14,10 @@ import java.util.List;
  * TreeNode(int x) { val = x; }
  * }
  */
+/*
+Runtime: 1 ms, faster than 92.68% of Java online submissions for Binary Tree Zigzag Level Order Traversal.
+Memory Usage: 36.3 MB, less than 99.04% of Java online submissions for Binary Tree Zigzag Level Order Traversal.
+ */
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> list = new ArrayList<>();

@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q125_valid_palindrome;
-
+/*
+Runtime: 5 ms, faster than 56.06% of Java online submissions for Valid Palindrome.
+Memory Usage: 37.5 MB, less than 100.00% of Java online submissions for Valid Palindrome.
+ */
 class Solution {
     public boolean isPalindrome(String s) {
         int lo = 0;

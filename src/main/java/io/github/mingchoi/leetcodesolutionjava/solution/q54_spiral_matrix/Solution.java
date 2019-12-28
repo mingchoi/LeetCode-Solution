@@ -1,10 +1,12 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q54_spiral_matrix;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
+        if (matrix.length == 0) return Arrays.asList();
         int size = matrix.length * matrix[0].length;
         List<Integer> r = new ArrayList<>();
         int x = -1;

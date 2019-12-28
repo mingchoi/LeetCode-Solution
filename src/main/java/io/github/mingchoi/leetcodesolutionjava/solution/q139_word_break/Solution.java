@@ -2,7 +2,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q139_word_break;
 
 import java.util.HashMap;
 import java.util.List;
-
+/*
+Runtime: 1 ms, faster than 99.58% of Java online submissions for Word Break.
+Memory Usage: 35.6 MB, less than 99.28% of Java online submissions for Word Break.
+ */
 class Solution {
     HashMap<String, Boolean> map = new HashMap<>();
     HashMap<String, Boolean> failed = new HashMap<>();

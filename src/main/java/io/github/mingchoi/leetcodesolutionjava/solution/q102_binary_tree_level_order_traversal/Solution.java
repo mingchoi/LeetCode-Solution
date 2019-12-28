@@ -15,6 +15,10 @@ import java.util.List;
  * TreeNode(int x) { val = x; }
  * }
  */
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Binary Tree Level Order Traversal.
+Memory Usage: 36.1 MB, less than 100.00% of Java online submissions for Binary Tree Level Order Traversal.
+ */
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> list = new ArrayList<>();

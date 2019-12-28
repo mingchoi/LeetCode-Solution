@@ -1,5 +1,9 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q4_median_of_two_sorted_arrays;
 
+/*
+Runtime: 2 ms, faster than 99.97% of Java online submissions for Median of Two Sorted Arrays.
+Memory Usage: 46.6 MB, less than 90.97% of Java online submissions for Median of Two Sorted Arrays.
+ */
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] arr = new int[nums1.length + nums2.length];

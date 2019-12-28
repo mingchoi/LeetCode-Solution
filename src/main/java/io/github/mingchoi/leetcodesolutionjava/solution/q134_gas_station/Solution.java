@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q134_gas_station;
-
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Gas Station.
+Memory Usage: 37.8 MB, less than 50.98% of Java online submissions for Gas Station.
+ */
 public class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int n = 0;

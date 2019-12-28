@@ -2,6 +2,11 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q21_merge_two_sorted_li
 
 import io.github.mingchoi.leetcodesolutionjava.datastructure.ListNode;
 
+/*
+Runtime: 1 ms, faster than 22.11% of Java online submissions for Merge Two Sorted Lists.
+Memory Usage: 41 MB, less than 8.08% of Java online submissions for Merge Two Sorted Lists.
+ */
+
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);

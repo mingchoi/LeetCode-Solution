@@ -3,7 +3,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q127_word_ladder;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+/*
+Runtime: 255 ms, faster than 21.82% of Java online submissions for Word Ladder.
+Memory Usage: 38.6 MB, less than 97.81% of Java online submissions for Word Ladder.
+ */
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         class Pair {

@@ -15,6 +15,10 @@ import java.util.ArrayList;
  * TreeNode(int x) { val = x; }
  * }
  */
+/*
+Runtime: 5 ms, faster than 7.25% of Java online submissions for Validate Binary Search Tree.
+Memory Usage: 39.9 MB, less than 71.16% of Java online submissions for Validate Binary Search Tree.
+ */
 class Solution {
     public boolean isValidBST(TreeNode root) {
         if (root == null) {

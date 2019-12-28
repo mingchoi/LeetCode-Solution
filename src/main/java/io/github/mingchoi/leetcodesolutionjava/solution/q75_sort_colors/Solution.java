@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q75_sort_colors;
-
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Sort Colors.
+Memory Usage: 35.3 MB, less than 99.21% of Java online submissions for Sort Colors.
+ */
 class Solution {
     public void sortColors(int[] nums) {
         int c0 = 0;

@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q14_longest_common_prefix;
-
+/*
+Runtime: 1 ms, faster than 74.39% of Java online submissions for Longest Common Prefix.
+Memory Usage: 35.8 MB, less than 100.00% of Java online submissions for Longest Common Prefix.
+ */
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {

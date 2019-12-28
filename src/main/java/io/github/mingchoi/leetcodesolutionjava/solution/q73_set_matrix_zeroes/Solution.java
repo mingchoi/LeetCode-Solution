@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q73_set_matrix_zeroes;
 
 import java.util.HashMap;
-
+/*
+Runtime: 3 ms, faster than 17.29% of Java online submissions for Set Matrix Zeroes.
+Memory Usage: 49.8 MB, less than 7.14% of Java online submissions for Set Matrix Zeroes.
+ */
 class Solution {
     public void setZeroes(int[][] matrix) {
         HashMap<Integer, Boolean> mapx = new HashMap<>();

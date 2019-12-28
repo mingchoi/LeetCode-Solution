@@ -1,5 +1,9 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q38_count_and_say;
 
+/*
+Runtime: 7 ms, faster than 29.42% of Java online submissions for Count and Say.
+Memory Usage: 36.4 MB, less than 52.63% of Java online submissions for Count and Say.
+ */
 class Solution {
     public String countAndSay(int n) {
         String str = "1";

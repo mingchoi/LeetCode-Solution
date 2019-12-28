@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q148_sort_list;
 
 import io.github.mingchoi.leetcodesolutionjava.datastructure.ListNode;
-
+/*
+Runtime: 744 ms, faster than 5.03% of Java online submissions for Sort List.
+Memory Usage: 40 MB, less than 94.74% of Java online submissions for Sort List.
+ */
 class Solution {
     public ListNode sortList(ListNode head) {
         return quickSort(head);

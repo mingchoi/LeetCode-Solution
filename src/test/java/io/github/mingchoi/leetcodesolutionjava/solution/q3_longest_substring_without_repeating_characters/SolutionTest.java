@@ -23,7 +23,8 @@ public class SolutionTest {
                 new TestCase(4, "abcabcdabca"),
                 new TestCase(3, "abcabcbb"),
                 new TestCase(1, "a"),
-                new TestCase(3, "abcabccc")
+                new TestCase(3, "abcabccc"),
+                new TestCase(0, "")
         };
 
         for (TestCase c : cases) {

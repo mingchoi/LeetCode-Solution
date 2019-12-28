@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q155_min_stack;
 
 import java.util.Stack;
-
+/*
+Runtime: 5 ms, faster than 89.12% of Java online submissions for Min Stack.
+Memory Usage: 40.2 MB, less than 29.71% of Java online submissions for Min Stack.
+ */
 class MinStack {
     Stack<Integer> stack;
     Integer min;

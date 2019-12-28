@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q190_reverse_bits;
-
+/*
+Runtime: 1 ms, faster than 100.00% of Java online submissions for Reverse Bits.
+Memory Usage: 29.7 MB, less than 7.32% of Java online submissions for Reverse Bits.
+ */
 public class Solution {
     public int reverseBits(int n) {
         boolean fix = (n & 0x80000000) != 0;

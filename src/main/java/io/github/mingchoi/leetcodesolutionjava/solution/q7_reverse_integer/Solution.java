@@ -1,7 +1,11 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q7_reverse_integer;
 
+/*
+Runtime: 2 ms, faster than 24.62% of Java online submissions for Reverse Integer.
+Memory Usage: 33.9 MB, less than 9.44% of Java online submissions for Reverse Integer.
+ */
 class Solution {
-    public int reverse(int x) {
+    public long reverse(long x) {
         String str = String.valueOf(x);
         boolean nev = x < 0;
 
@@ -17,6 +21,7 @@ class Solution {
             sb.append(str.charAt(i));
         }
 
-        return Integer.parseInt(sb.toString());
+        long result = Long.parseLong(sb.toString());
+        return result > Integer.MAX_VALUE || result < Integer.MIN_VALUE ? 0 : (int) result;
     }
 }

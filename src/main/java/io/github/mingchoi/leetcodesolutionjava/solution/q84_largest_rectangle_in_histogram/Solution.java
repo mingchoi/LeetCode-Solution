@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q84_largest_rectangle_in_histogram;
-
+/*
+Runtime: 186 ms, faster than 21.90% of Java online submissions for Largest Rectangle in Histogram.
+Memory Usage: 41 MB, less than 75.00% of Java online submissions for Largest Rectangle in Histogram.
+ */
 class Solution {
     public int largestRectangleArea_n2(int[] heights) {
         int max = 0;

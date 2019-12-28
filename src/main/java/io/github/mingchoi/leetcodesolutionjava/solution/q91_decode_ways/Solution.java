@@ -1,34 +1,24 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q91_decode_ways;
 
-import java.util.HashMap;
-
+/*
+Runtime: 1 ms, faster than 98.53% of Java online submissions for Decode Ways.
+Memory Usage: 34.3 MB, less than 100.00% of Java online submissions for Decode Ways.
+ */
 class Solution {
     public int numDecodings(String s) {
-        if (s.length() == 0) return 0;
-        if (s.length() == 1) return 1;
-        if (s.length() == 2) return checkGroup(s.charAt(0), s.charAt(1));
-        HashMap<String, Integer> map = new HashMap<>();
-        int[] t = new int[s.length()];
-        t[0] = 1;
-        t[1] = checkGroup(s.charAt(0), s.charAt(1));
-        for (int i = 2; i < s.length(); i++) {
-            char last = s.charAt(i - 1);
-            char curr = s.charAt(i);
-            if (checkGroup(last, curr) == 1) {
-                t[i] = t[i - 2];
-            } else {
-                t[i] = t[i - 2] + t[i - 1];
+        if (s.length() == 0 || s.charAt(0) == '0') return 0;
+        int[] dp = new int[s.length() + 1];
+        dp[0] = 1;
+        for (int i = 1; i < dp.length; i++) {
+            if (s.charAt(i - 1) != '0') dp[i] += dp[i - 1];
+            if (i > 1 && (s.charAt(i - 2) == '1' || (s.charAt(i - 2) == '2' && s.charAt(i - 1) < '7'))) {
+                dp[i] += dp[i - 2];
             }
         }
-        return t[s.length() - 1];
-    }
-
-    private int checkGroup(int last, int curr) {
-        if (last == '1' || last == '2') {
-            if (curr >= '0' && curr < '7') {
-                return 2;
-            }
-        }
-        return 1;
+//        for (int n : dp) {
+//            System.out.print(n + ", ");
+//        }
+//        System.out.println("\n");
+        return dp[dp.length - 1];
     }
 }

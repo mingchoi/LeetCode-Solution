@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q150_evaluate_reverse_polish_notation;
 
 import java.util.Stack;
-
+/*
+Runtime: 6 ms, faster than 79.58% of Java online submissions for Evaluate Reverse Polish Notation.
+Memory Usage: 37.8 MB, less than 94.00% of Java online submissions for Evaluate Reverse Polish Notation.
+ */
 class Solution {
     public int evalRPN(String[] tokens) {
         int pt = 0;

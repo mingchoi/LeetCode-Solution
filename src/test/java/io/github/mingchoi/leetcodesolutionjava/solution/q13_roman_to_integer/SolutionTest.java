@@ -19,6 +19,7 @@ public class SolutionTest {
         }
 
         TestCase[] cases = new TestCase[]{
+                new TestCase(3, "III"),
                 new TestCase(1994, "MCMXCIV"),
                 new TestCase(999, "CMXCIX"),
                 new TestCase(444, "CDXLIV")

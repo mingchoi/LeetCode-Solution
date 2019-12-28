@@ -16,5 +16,15 @@ public class SolutionTest {
                 expected,
                 new Solution().twoSum(nums, target)
         );
+
+        nums = new int[]{3, 2, 4};
+        target = 6;
+        expected = new int[]{1, 2};
+
+        assertArrayEquals(
+                expected,
+                new Solution().twoSum(nums, target)
+        );
+
     }
 }

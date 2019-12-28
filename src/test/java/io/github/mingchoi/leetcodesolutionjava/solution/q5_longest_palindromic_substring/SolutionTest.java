@@ -45,6 +45,7 @@ public class SolutionTest {
         }
 
         TestCase[] cases = new TestCase[]{
+                new TestCase("", ""),
                 new TestCase("babad", "aba"),
                 new TestCase("cbbd", "bb"),
                 new TestCase("abcba", "abcba"),

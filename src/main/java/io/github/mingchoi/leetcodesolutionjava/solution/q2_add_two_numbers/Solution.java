@@ -2,6 +2,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q2_add_two_numbers;
 
 import io.github.mingchoi.leetcodesolutionjava.datastructure.ListNode;
 
+/*
+Runtime: 2 ms, faster than 79.53% of Java online submissions for Add Two Numbers.
+Memory Usage: 42.1 MB, less than 90.59% of Java online submissions for Add Two Numbers.
+ */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);

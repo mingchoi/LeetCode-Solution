@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q62_unique_paths;
-
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Unique Paths.
+Memory Usage: 32.9 MB, less than 5.10% of Java online submissions for Unique Paths.
+ */
 class Solution {
     public int uniquePaths(int m, int n) {
         return uniquePaths_dp1dtable(m, n);

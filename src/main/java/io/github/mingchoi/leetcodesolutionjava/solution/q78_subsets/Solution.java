@@ -3,7 +3,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q78_subsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
+/*
+Runtime: 4 ms, faster than 5.09% of Java online submissions for Subsets.
+Memory Usage: 37.6 MB, less than 95.90% of Java online submissions for Subsets.
+ */
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();

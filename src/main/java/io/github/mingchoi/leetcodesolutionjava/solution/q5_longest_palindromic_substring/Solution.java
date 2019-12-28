@@ -1,5 +1,6 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q5_longest_palindromic_substring;
 
+
 class Solution {
     public boolean isPalindrome(String s) {
         int i = 0;
@@ -15,6 +16,7 @@ class Solution {
     }
 
     public String longestPalindrome(String s) {
+        if (s.equals("")) return "";
         int start = 0;
         int end = s.length() - 1;
         while (true) {

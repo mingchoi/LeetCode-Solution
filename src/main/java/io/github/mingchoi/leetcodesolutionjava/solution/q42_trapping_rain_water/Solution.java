@@ -2,6 +2,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q42_trapping_rain_water
 
 import java.util.Arrays;
 
+/*
+Runtime: 434 ms, faster than 5.71% of Java online submissions for Trapping Rain Water.
+Memory Usage: 38.7 MB, less than 60.96% of Java online submissions for Trapping Rain Water.
+ */
 class Solution {
     public int trap(int[] height) {
         int count = 0;

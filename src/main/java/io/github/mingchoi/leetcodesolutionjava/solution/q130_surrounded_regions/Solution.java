@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q130_surrounded_regions;
 
 import java.util.HashMap;
-
+/*
+Runtime: 5 ms, faster than 17.47% of Java online submissions for Surrounded Regions.
+Memory Usage: 40.6 MB, less than 96.43% of Java online submissions for Surrounded Regions.
+ */
 class Solution {
     int width;
     int height;

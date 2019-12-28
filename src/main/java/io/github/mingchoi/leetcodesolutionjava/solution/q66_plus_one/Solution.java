@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q66_plus_one;
-
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Plus One.
+Memory Usage: 35.2 MB, less than 97.58% of Java online submissions for Plus One.
+ */
 class Solution {
     public int[] plusOne(int[] digits) {
         int len = digits.length - 1;

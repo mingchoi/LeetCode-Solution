@@ -4,7 +4,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q141_linked_list_cycle;
 import io.github.mingchoi.leetcodesolutionjava.datastructure.ListNode;
 
 import java.util.HashMap;
-
+/*
+Runtime: 6 ms, faster than 6.73% of Java online submissions for Linked List Cycle.
+Memory Usage: 38.8 MB, less than 28.57% of Java online submissions for Linked List Cycle.
+ */
 public class Solution {
 
 

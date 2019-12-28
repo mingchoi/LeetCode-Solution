@@ -1,5 +1,8 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q88_merge_sorted_array;
-
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Sorted Array.
+Memory Usage: 36.3 MB, less than 100.00% of Java online submissions for Merge Sorted Array.
+ */
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int p1 = m - 1;

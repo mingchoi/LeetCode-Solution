@@ -11,6 +11,10 @@ import io.github.mingchoi.leetcodesolutionjava.datastructure.TreeNode;
  * TreeNode(int x) { val = x; }
  * }
  */
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Symmetric Tree.
+Memory Usage: 39.4 MB, less than 31.29% of Java online submissions for Symmetric Tree.
+ */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) {

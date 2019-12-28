@@ -9,10 +9,10 @@ public class SolutionTest {
     @Test
     public void reverse() {
         class TestCase {
-            public int expected;
-            public int s;
+            public long expected;
+            public long s;
 
-            public TestCase(int ex, int s) {
+            public TestCase(long ex, long s) {
                 this.expected = ex;
                 this.s = s;
             }
@@ -20,7 +20,8 @@ public class SolutionTest {
 
         TestCase[] cases = new TestCase[]{
                 new TestCase(123, 321),
-                new TestCase(-123, -321)
+                new TestCase(-123, -321),
+                new TestCase(9646324351L, 1534236469L)
         };
 
         for (TestCase c : cases) {

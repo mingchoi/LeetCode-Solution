@@ -2,7 +2,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q128_longest_consecutiv
 
 import java.util.HashMap;
 import java.util.List;
-
+/*
+Runtime: 974 ms, faster than 5.00% of Java online submissions for Longest Consecutive Sequence.
+Memory Usage: 39.8 MB, less than 20.69% of Java online submissions for Longest Consecutive Sequence.
+ */
 class Solution {
     public int longestConsecutive(int[] nums) {
         if (nums.length == 0) return 0;

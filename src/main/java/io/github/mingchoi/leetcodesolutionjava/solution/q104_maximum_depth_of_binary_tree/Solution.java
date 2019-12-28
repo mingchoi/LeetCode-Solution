@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q104_maximum_depth_of_binary_tree;
 
 import io.github.mingchoi.leetcodesolutionjava.datastructure.TreeNode;
-
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Maximum Depth of Binary Tree.
+Memory Usage: 39 MB, less than 94.62% of Java online submissions for Maximum Depth of Binary Tree.
+ */
 class Solution {
     public int maxDepth(TreeNode root) {
         if (root == null) {

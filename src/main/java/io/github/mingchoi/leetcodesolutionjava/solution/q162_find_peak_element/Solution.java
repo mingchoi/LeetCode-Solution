@@ -4,7 +4,7 @@ enum Direction {up, flat, down}
 
 /*
 Runtime: 1 ms, faster than 100.00% of Java online submissions for Find Peak Element.
-Memory Usage: 38.4 MB, less than 100.00% of Java online submissions for Find Peak Element.
+Memory Usage: 37.6 MB, less than 100.00% of Java online submissions for Find Peak Element.
  */
 public class Solution {
     public int findPeakElement(int[] nums) {

@@ -7,8 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
-Runtime: 1 ms, faster than 12.22% of Java online submissions for Convert Sorted Array to Binary Search Tree.
-Memory Usage: 36.9 MB, less than 100.00% of Java online submissions for Convert Sorted Array to Binary Search Tree.
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Convert Sorted Array to Binary Search Tree.
+Memory Usage: 37.3 MB, less than 95.88% of Java online submissions for Convert Sorted Array to Binary Search Tree.
  */
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {

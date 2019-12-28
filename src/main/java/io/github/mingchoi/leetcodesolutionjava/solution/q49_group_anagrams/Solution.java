@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q49_group_anagrams;
 
 import java.util.*;
-
+/*
+Runtime: 14 ms, faster than 31.73% of Java online submissions for Group Anagrams.
+Memory Usage: 40.9 MB, less than 96.49% of Java online submissions for Group Anagrams.
+ */
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<>();

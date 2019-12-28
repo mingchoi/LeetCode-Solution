@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-
+/*
+Runtime: 1 ms, faster than 59.45% of Java online submissions for Letter Combinations of a Phone Number.
+Memory Usage: 35.8 MB, less than 98.63% of Java online submissions for Letter Combinations of a Phone Number.
+ */
 class Solution {
 
     private HashMap<Character, List<String>> comb = new HashMap<>();

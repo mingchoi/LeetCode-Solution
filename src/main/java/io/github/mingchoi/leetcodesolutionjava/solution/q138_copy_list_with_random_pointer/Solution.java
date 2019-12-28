@@ -27,8 +27,8 @@ class Node {
 };
 
 /*
-Runtime: 1 ms, faster than 74.81% of Java online submissions for Copy List with Random Pointer.
-Memory Usage: 33.8 MB, less than 99.07% of Java online submissions for Copy List with Random Pointer.
+Runtime: 1 ms, faster than 74.63% of Java online submissions for Copy List with Random Pointer.
+Memory Usage: 35.5 MB, less than 20.56% of Java online submissions for Copy List with Random Pointer.
  */
 
 class Solution {

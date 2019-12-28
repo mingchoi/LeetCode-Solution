@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q48_rotate_image;
 
 import java.util.ArrayList;
-
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Rotate Image.
+Memory Usage: 36.1 MB, less than 100.00% of Java online submissions for Rotate Image.
+ */
 class Solution {
     public void rotate(int[][] matrix) {
         ArrayList<Integer> arr = new ArrayList<>();

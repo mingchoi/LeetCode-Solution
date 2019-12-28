@@ -1,7 +1,10 @@
 package io.github.mingchoi.leetcodesolutionjava.solution.q116_populating_next_right_pointers_in_each_node;
 
 import java.util.HashMap;
-
+/*
+Runtime: 5 ms, faster than 22.18% of Java online submissions for Populating Next Right Pointers in Each Node.
+Memory Usage: 37.9 MB, less than 6.35% of Java online submissions for Populating Next Right Pointers in Each Node.
+ */
 class Node {
     public int val;
     public Node left;

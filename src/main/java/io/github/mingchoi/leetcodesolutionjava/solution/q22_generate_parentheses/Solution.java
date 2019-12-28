@@ -2,7 +2,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q22_generate_parenthese
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+Runtime: 1 ms, faster than 94.68% of Java online submissions for Generate Parentheses.
+Memory Usage: 36.2 MB, less than 100.00% of Java online submissions for Generate Parentheses.
+ */
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();

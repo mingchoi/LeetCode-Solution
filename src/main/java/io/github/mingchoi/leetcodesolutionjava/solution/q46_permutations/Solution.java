@@ -2,7 +2,10 @@ package io.github.mingchoi.leetcodesolutionjava.solution.q46_permutations;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+Runtime: 1 ms, faster than 97.03% of Java online submissions for Permutations.
+Memory Usage: 37.3 MB, less than 97.16% of Java online submissions for Permutations.
+ */
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();

@@ -9,6 +9,7 @@ import java.util.List;
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         List<ListNode> list = new ArrayList<>(Arrays.asList(lists));
+        if (list.size() == 0) return null;
         ListNode head = new ListNode(0);
         ListNode node = head;
 

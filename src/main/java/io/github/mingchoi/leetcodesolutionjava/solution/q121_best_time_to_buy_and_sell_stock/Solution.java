@@ -21,6 +21,10 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 */
 
+/*
+Runtime: 1 ms, faster than 79.37% of Java online submissions for Best Time to Buy and Sell Stock.
+Memory Usage: 37 MB, less than 100.00% of Java online submissions for Best Time to Buy and Sell Stock.
+ */
 class Solution {
     public int maxProfit_straight(int[] prices) {
         if (prices.length == 0) return 0;
