@@ -4,7 +4,7 @@ All solutions are written in Java.
 
 Here are the result: (higher is better, 100 is max)
 
-|difficulty|total|runtime faster|memory lesser|
+|difficulty|total|runtime faster|memory(MB)|
 |---|---|---|---|
 |Easy|83|82.91|42.34|
 |Medium|66|71.18|43.79|
@@ -12,7 +12,7 @@ Here are the result: (higher is better, 100 is max)
 |Total|158|75.29|43.58|
 
 
-|id|title|difficulty|runtime faster|memory lesser|
+|id|title|difficulty|runtime faster|memory(MB)|
 |---|---|---|---|---|
 |1|Two Sum|Easy|98.93|38.1|
 |2|Add Two Numbers|Medium|79.53|42.1|
