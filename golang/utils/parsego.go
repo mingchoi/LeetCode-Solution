@@ -44,7 +44,7 @@ func ParseGoSolution() []Result {
 		for scanner.Scan() {
 			text := scanner.Text()
 			if strings.HasPrefix(text, "Your runtime") {
-				results = append(results, extractLeetCodeExtensionResult(Id, scanner))
+				results = append(results, extractLeetCodeExtensionResult(Id, filesPath[i], scanner))
 			}
 		}
 	}
@@ -52,7 +52,7 @@ func ParseGoSolution() []Result {
 	return results
 }
 
-func extractLeetCodeExtensionResult(Id string, scanner *bufio.Scanner) Result {
+func extractLeetCodeExtensionResult(Id, path string, scanner *bufio.Scanner) Result {
 	/*
 		example:
 		Your runtime beats 96.22 % of golang submissions
@@ -85,5 +85,6 @@ func extractLeetCodeExtensionResult(Id string, scanner *bufio.Scanner) Result {
 		MemoryBeat:  memoryBeatFloat,
 		MemoryMB:    memoryUsedFloat,
 		Language:    "Go",
+		Path:        path,
 	}
 }

@@ -8,7 +8,9 @@ import (
 	"strings"
 )
 
-const markdownReportHeader string = `# LeetCode Solution
+const sourceCodeUrl = "https://github.com/mingchoi/LeetCode-Solution/blob/master/"
+
+const markdownReportHeader = `# LeetCode Solution
 
 Solutions are written in Golang or Java. 
 
@@ -23,6 +25,7 @@ type Result struct {
 	MemoryBeat  float64
 	MemoryMB    float64
 	Language    string
+	Path        string
 }
 
 type ReportSummaryRow struct {
@@ -47,14 +50,23 @@ type ReportResultRow struct {
 	Runtime    float64
 	Memory     float64
 	Language   string
+	Path       string
 }
 
 func (row ReportResultRow) ToMarkdownTitle() string {
-	return "|id|title|difficulty|runtime beat|memory beat|lang|\n|---|---|---|---|---|---|\n"
+	return "|id|title|difficulty|runtime beat|memory beat|lang/code|\n|---|---|---|---|---|---|\n"
 }
 
 func (row ReportResultRow) ToMarkdown() string {
-	return fmt.Sprintf("|%v|%v|%v|%.2f|%.2f|%v|\n", row.Id, row.Name, row.Difficulty, row.Runtime, row.Memory, row.Language)
+
+	return fmt.Sprintf("|%v|%v|%v|%.2f|%.2f|[%v](%v)|\n",
+		row.Id,
+		row.Name,
+		row.Difficulty,
+		row.Runtime,
+		row.Memory,
+		row.Language,
+		sourceCodeUrl+row.Path)
 }
 
 func GenerateMarkdownReport(results []Result) {
@@ -100,6 +112,7 @@ func generateMarkdownReportString(results []Result) string {
 			Runtime:    r.RuntimeBeat,
 			Memory:     r.MemoryBeat,
 			Language:   r.Language,
+			Path:       r.Path,
 		}
 		rows = append(rows, row)
 	}

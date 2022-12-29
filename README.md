@@ -11,174 +11,174 @@ Here are the result: (higher is better, max at 100)
 |Hard|9|37.05|53.38|
 |Total|169|77.04|43.66|
 
-|id|title|difficulty|runtime beat|memory beat|lang|
+|id|title|difficulty|runtime beat|memory beat|lang/code|
 |---|---|---|---|---|---|
-|1|Two Sum|Easy|96.22|48.53|Go|
-|1|Two Sum|Easy|98.93|38.10|Java|
-|2|Add Two Numbers|Medium|79.53|42.10|Java|
-|3|Longest Substring Without Repeating Characters|Medium|65.68|36.40|Java|
-|4|Median of Two Sorted Arrays|Hard|99.97|46.60|Java|
-|7|Reverse Integer|Medium|24.62|33.90|Java|
-|11|Container With Most Water|Medium|95.43|94.87|Java|
-|13|Roman to Integer|Easy|59.18|36.10|Java|
-|14|Longest Common Prefix|Easy|74.39|35.80|Java|
-|17|Letter Combinations of a Phone Number|Medium|59.45|35.80|Java|
-|19|Remove Nth Node From End of List|Medium|100.00|73.24|Go|
-|19|Remove Nth Node From End of List|Medium|100.00|34.90|Java|
-|20|Valid Parentheses|Easy|98.86|34.10|Java|
-|21|Merge Two Sorted Lists|Easy|22.11|8.08|Java|
-|22|Generate Parentheses|Medium|94.68|36.20|Java|
-|26|Remove Duplicates from Sorted Array|Easy|97.79|41.10|Java|
-|27|Remove Element|Easy|100.00|36.20|Java|
-|28|Find the Index of the First Occurrence in a String|Medium|5.64|37.30|Java|
-|33|Search in Rotated Sorted Array|Medium|100.00|40.20|Java|
-|34|Find First and Last Position of Element in Sorted Array|Medium|14.89|43.70|Java|
-|35|Search Insert Position|Easy|100.00|100.00|Java|
-|36|Valid Sudoku|Medium|70.89|43.90|Java|
-|38|Count and Say|Medium|29.42|36.40|Java|
-|41|First Missing Positive|Hard|37.60|35.90|Java|
-|42|Trapping Rain Water|Hard|5.71|38.70|Java|
-|46|Permutations|Medium|97.03|37.30|Java|
-|48|Rotate Image|Medium|100.00|36.10|Java|
-|49|Group Anagrams|Medium|31.73|40.90|Java|
-|55|Jump Game|Medium|99.09|40.80|Java|
-|62|Unique Paths|Medium|100.00|32.90|Java|
-|66|Plus One|Easy|100.00|35.20|Java|
-|69|Sqrt(x)|Easy|100.00|33.40|Java|
-|70|Climbing Stairs|Easy|100.00|5.26|Java|
-|73|Set Matrix Zeroes|Medium|17.29|49.80|Java|
-|75|Sort Colors|Medium|100.00|35.30|Java|
-|78|Subsets|Medium|5.09|37.60|Java|
-|84|Largest Rectangle in Histogram|Hard|21.90|75.00|Java|
-|88|Merge Sorted Array|Easy|100.00|36.30|Java|
-|91|Decode Ways|Medium|98.53|34.30|Java|
-|94|Binary Tree Inorder Traversal|Easy|100.00|34.70|Java|
-|98|Validate Binary Search Tree|Medium|7.25|39.90|Java|
-|101|Symmetric Tree|Easy|100.00|39.40|Java|
-|102|Binary Tree Level Order Traversal|Medium|100.00|36.10|Java|
-|103|Binary Tree Zigzag Level Order Traversal|Medium|92.68|36.30|Java|
-|104|Maximum Depth of Binary Tree|Easy|100.00|94.62|Java|
-|105|Construct Binary Tree from Preorder and Inorder Traversal|Medium|45.14|36.20|Java|
-|106|Construct Binary Tree from Inorder and Postorder Traversal|Medium|38.33|36.20|Java|
-|108|Convert Sorted Array to Binary Search Tree|Easy|100.00|37.30|Java|
-|116|Populating Next Right Pointers in Each Node|Medium|22.18|37.90|Java|
-|118|Pascal's Triangle|Easy|100.00|7.23|Java|
-|120|Triangle|Medium|30.93|36.70|Java|
-|121|Best Time to Buy and Sell Stock|Easy|79.37|100.00|Java|
-|122|Best Time to Buy and Sell Stock II|Medium|91.86|36.90|Java|
-|124|Binary Tree Maximum Path Sum|Hard|99.80|98.81|Java|
-|125|Valid Palindrome|Easy|56.06|37.50|Java|
-|127|Word Ladder|Hard|21.82|38.60|Java|
-|128|Longest Consecutive Sequence|Medium|5.00|39.80|Java|
-|130|Surrounded Regions|Medium|17.47|40.60|Java|
-|134|Gas Station|Medium|100.00|37.80|Java|
-|136|Single Number|Easy|100.00|39.20|Java|
-|138|Copy List with Random Pointer|Medium|74.63|35.50|Java|
-|139|Word Break|Medium|99.58|35.60|Java|
-|141|Linked List Cycle|Easy|6.73|38.80|Java|
-|146|LRU Cache|Medium|75.89|56.40|Java|
-|148|Sort List|Medium|5.03|94.74|Java|
-|150|Evaluate Reverse Polish Notation|Medium|79.58|37.80|Java|
-|155|Min Stack|Medium|89.12|40.20|Java|
-|160|Intersection of Two Linked Lists|Easy|13.81|38.70|Java|
-|162|Find Peak Element|Medium|100.00|37.60|Java|
-|169|Majority Element|Easy|46.06|39.90|Java|
-|171|Excel Sheet Column Number|Easy|5.73|100.00|Java|
-|172|Factorial Trailing Zeroes|Medium|100.00|33.50|Java|
-|179|Largest Number|Medium|47.12|36.20|Java|
-|189|Rotate Array|Medium|52.39|37.50|Java|
-|190|Reverse Bits|Easy|100.00|29.70|Java|
-|191|Number of 1 Bits|Easy|100.00|33.40|Java|
-|198|House Robber|Medium|100.00|34.20|Java|
-|200|Number of Islands|Medium|100.00|40.70|Java|
-|202|Happy Number|Easy|63.75|33.70|Java|
-|204|Count Primes|Medium|70.90|34.50|Java|
-|206|Reverse Linked List|Easy|100.00|37.20|Java|
-|208|Implement Trie (Prefix Tree)|Medium|76.72|52.90|Java|
-|215|Kth Largest Element in an Array|Medium|53.27|52.33|Java|
-|217|Contains Duplicate|Easy|57.49|43.80|Java|
-|230|Kth Smallest Element in a BST|Medium|73.05|37.40|Java|
-|234|Palindrome Linked List|Easy|39.47|40.40|Java|
-|236|Lowest Common Ancestor of a Binary Tree|Medium|77.68|34.30|Java|
-|237|Delete Node in a Linked List|Medium|100.00|100.00|Go|
-|237|Delete Node in a Linked List|Medium|100.00|36.20|Java|
-|238|Product of Array Except Self|Medium|13.24|42.50|Java|
-|239|Sliding Window Maximum|Hard|23.60|40.80|Java|
-|240|Search a 2D Matrix II|Medium|100.00|42.50|Java|
-|242|Valid Anagram|Easy|79.98|36.30|Java|
-|268|Missing Number|Easy|100.00|38.80|Java|
-|279|Perfect Squares|Medium|93.71|35.40|Java|
-|283|Move Zeroes|Easy|100.00|37.90|Java|
-|287|Find the Duplicate Number|Medium|27.12|36.70|Java|
-|289|Game of Life|Medium|100.00|34.60|Java|
-|295|Find Median from Data Stream|Hard|6.42|67.10|Java|
-|300|Longest Increasing Subsequence|Medium|64.56|36.90|Java|
-|315|Count of Smaller Numbers After Self|Hard|16.59|38.90|Java|
-|322|Coin Change|Medium|84.99|94.67|Java|
-|326|Power of Three|Easy|80.68|35.60|Java|
-|328|Odd Even Linked List|Medium|100.00|36.30|Java|
-|334|Increasing Triplet Subsequence|Medium|100.00|38.60|Java|
-|341|Flatten Nested List Iterator|Medium|69.50|37.20|Java|
-|344|Reverse String|Easy|83.46|86.51|Go|
-|344|Reverse String|Easy|100.00|51.20|Java|
-|347|Top K Frequent Elements|Medium|32.13|40.80|Java|
-|349|Intersection of Two Arrays|Easy|37.05|37.50|Java|
-|350|Intersection of Two Arrays II|Easy|93.37|37.60|Java|
-|371|Sum of Two Integers|Medium|100.00|32.80|Java|
-|378|Kth Smallest Element in a Sorted Matrix|Medium|39.29|70.27|Java|
-|380|Insert Delete GetRandom O(1)|Medium|58.14|46.80|Java|
-|384|Shuffle an Array|Medium|9.71|61.30|Java|
-|387|First Unique Character in a String|Easy|60.56|38.40|Java|
-|429|N-ary Tree Level Order Traversal|Medium|99.97|40.50|Java|
-|454|4Sum II|Medium|43.70|12.00|Java|
-|509|Fibonacci Number|Easy|100.00|33.10|Java|
-|535|Encode and Decode TinyURL|Medium|100.00|100.00|Java|
-|557|Reverse Words in a String III|Easy|83.82|37.90|Java|
-|559|Maximum Depth of N-ary Tree|Easy|100.00|38.60|Java|
-|561|Array Partition|Easy|92.74|39.10|Java|
-|589|N-ary Tree Preorder Traversal|Easy|98.44|40.30|Java|
-|590|N-ary Tree Postorder Traversal|Easy|98.37|39.50|Java|
-|617|Merge Two Binary Trees|Easy|100.00|100.00|Java|
-|654|Maximum Binary Tree|Medium|100.00|37.80|Java|
-|657|Robot Return to Origin|Easy|97.92|37.80|Java|
-|700|Search in a Binary Search Tree|Easy|100.00|38.40|Java|
-|701|Insert into a Binary Search Tree|Medium|100.00|39.10|Java|
-|709|To Lower Case|Easy|100.00|34.10|Java|
-|728|Self Dividing Numbers|Easy|73.44|33.90|Java|
-|771|Jewels and Stones|Easy|94.30|34.60|Java|
-|804|Unique Morse Code Words|Easy|100.00|35.60|Java|
-|807|Max Increase to Keep City Skyline|Medium|100.00|43.90|Java|
-|811|Subdomain Visit Count|Medium|82.69|37.10|Java|
-|814|Binary Tree Pruning|Medium|100.00|34.60|Java|
-|821|Shortest Distance to a Character|Easy|99.14|36.40|Java|
-|832|Flipping an Image|Easy|100.00|37.30|Java|
-|852|Peak Index in a Mountain Array|Medium|100.00|38.40|Java|
-|861|Score After Flipping Matrix|Medium|100.00|37.70|Java|
-|876|Middle of the Linked List|Easy|100.00|34.10|Java|
-|883|Projection Area of 3D Shapes|Easy|100.00|42.50|Java|
-|890|Find and Replace Pattern|Medium|94.38|36.30|Java|
-|897|Increasing Order Search Tree|Easy|100.00|43.80|Java|
-|905|Sort Array By Parity|Easy|100.00|39.90|Java|
-|921|Minimum Add to Make Parentheses Valid|Medium|100.00|34.10|Java|
-|922|Sort Array By Parity II|Easy|99.66|41.60|Java|
-|929|Unique Email Addresses|Easy|96.92|38.10|Java|
-|938|Range Sum of BST|Easy|100.00|45.20|Java|
-|961|N-Repeated Element in Size 2N Array|Easy|100.00|38.50|Java|
-|965|Univalued Binary Tree|Easy|100.00|34.40|Java|
-|977|Squares of a Sorted Array|Easy|69.25|40.20|Java|
-|1002|Find Common Characters|Easy|100.00|100.00|Java|
-|1008|Construct Binary Search Tree from Preorder Traversal|Medium|100.00|35.90|Java|
-|1021|Remove Outermost Parentheses|Easy|98.15|37.20|Java|
-|1038|Binary Search Tree to Greater Sum Tree|Medium|100.00|100.00|Java|
-|1047|Remove All Adjacent Duplicates In String|Easy|71.81|37.20|Java|
-|1051|Height Checker|Easy|87.78|34.70|Java|
-|1108|Defanging an IP Address|Easy|100.00|100.00|Java|
-|1122|Relative Sort Array|Easy|100.00|36.20|Java|
-|1160|Find Words That Can Be Formed by Characters|Easy|96.79|36.90|Java|
-|1207|Unique Number of Occurrences|Easy|88.45|35.50|Java|
-|1221|Split a String in Balanced Strings|Easy|100.00|33.80|Java|
-|1252|Cells with Odd Values in a Matrix|Easy|90.64|35.80|Java|
-|1266|Minimum Time Visiting All Points|Easy|84.70|43.10|Java|
-|1281|Subtract the Product and Sum of Digits of an Integer|Easy|100.00|32.90|Java|
-|1282|Group the People Given the Group Size They Belong To|Medium|86.10|37.40|Java|
-|1295|Find Numbers with Even Number of Digits|Easy|98.57|38.80|Java|
+|1|Two Sum|Easy|96.22|48.53|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q1-two-sum/1.two-sum.go)|
+|1|Two Sum|Easy|98.93|38.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1_two_sum/Solution.java)|
+|2|Add Two Numbers|Medium|79.53|42.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q2_add_two_numbers/Solution.java)|
+|3|Longest Substring Without Repeating Characters|Medium|65.68|36.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q3_longest_substring_without_repeating_characters/Solution.java)|
+|4|Median of Two Sorted Arrays|Hard|99.97|46.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q4_median_of_two_sorted_arrays/Solution.java)|
+|7|Reverse Integer|Medium|24.62|33.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q7_reverse_integer/Solution.java)|
+|11|Container With Most Water|Medium|95.43|94.87|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q11_container_with_most_water/Solution.java)|
+|13|Roman to Integer|Easy|59.18|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q13_roman_to_integer/Solution.java)|
+|14|Longest Common Prefix|Easy|74.39|35.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q14_longest_common_prefix/Solution.java)|
+|17|Letter Combinations of a Phone Number|Medium|59.45|35.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q17_letter_combinations_of_a_phone_number/Solution.java)|
+|19|Remove Nth Node From End of List|Medium|100.00|73.24|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q19-remove-nth-node-from-end-of-list/19.remove-nth-node-from-end-of-list.go)|
+|19|Remove Nth Node From End of List|Medium|100.00|34.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q19_remove_nth_node_from_end_of_list/Solution.java)|
+|20|Valid Parentheses|Easy|98.86|34.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q20_valid_parentheses/Solution.java)|
+|21|Merge Two Sorted Lists|Easy|22.11|8.08|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q21_merge_two_sorted_lists/Solution.java)|
+|22|Generate Parentheses|Medium|94.68|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q22_generate_parentheses/Solution.java)|
+|26|Remove Duplicates from Sorted Array|Easy|97.79|41.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q26_remove_duplicates_from_sorted_array/Solution.java)|
+|27|Remove Element|Easy|100.00|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q27_remove_element/Solution.java)|
+|28|Find the Index of the First Occurrence in a String|Medium|5.64|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q28_implement_strstr/Solution.java)|
+|33|Search in Rotated Sorted Array|Medium|100.00|40.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q33_search_in_rotated_sorted_array/Solution.java)|
+|34|Find First and Last Position of Element in Sorted Array|Medium|14.89|43.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q34_find_first_and_last_position_of_element_in_sorted_array/Solution.java)|
+|35|Search Insert Position|Easy|100.00|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q35_search_insert_position/Solution.java)|
+|36|Valid Sudoku|Medium|70.89|43.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q36_valid_sudoku/Solution.java)|
+|38|Count and Say|Medium|29.42|36.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q38_count_and_say/Solution.java)|
+|41|First Missing Positive|Hard|37.60|35.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q41_first_missing_positive/Solution.java)|
+|42|Trapping Rain Water|Hard|5.71|38.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q42_trapping_rain_water/Solution.java)|
+|46|Permutations|Medium|97.03|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q46_permutations/Solution.java)|
+|48|Rotate Image|Medium|100.00|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q48_rotate_image/Solution.java)|
+|49|Group Anagrams|Medium|31.73|40.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q49_group_anagrams/Solution.java)|
+|55|Jump Game|Medium|99.09|40.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q55_jump_game/Solution.java)|
+|62|Unique Paths|Medium|100.00|32.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q62_unique_paths/Solution.java)|
+|66|Plus One|Easy|100.00|35.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q66_plus_one/Solution.java)|
+|69|Sqrt(x)|Easy|100.00|33.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q69_sqrtx/Solution.java)|
+|70|Climbing Stairs|Easy|100.00|5.26|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q70_climbing_stairs/Solution.java)|
+|73|Set Matrix Zeroes|Medium|17.29|49.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q73_set_matrix_zeroes/Solution.java)|
+|75|Sort Colors|Medium|100.00|35.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q75_sort_colors/Solution.java)|
+|78|Subsets|Medium|5.09|37.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q78_subsets/Solution.java)|
+|84|Largest Rectangle in Histogram|Hard|21.90|75.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q84_largest_rectangle_in_histogram/Solution.java)|
+|88|Merge Sorted Array|Easy|100.00|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q88_merge_sorted_array/Solution.java)|
+|91|Decode Ways|Medium|98.53|34.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q91_decode_ways/Solution.java)|
+|94|Binary Tree Inorder Traversal|Easy|100.00|34.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q94_binary_tree_inorder_traversal/Solution.java)|
+|98|Validate Binary Search Tree|Medium|7.25|39.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q98_validate_binary_search_tree/Solution.java)|
+|101|Symmetric Tree|Easy|100.00|39.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q101_symmetric_tree/Solution.java)|
+|102|Binary Tree Level Order Traversal|Medium|100.00|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q102_binary_tree_level_order_traversal/Solution.java)|
+|103|Binary Tree Zigzag Level Order Traversal|Medium|92.68|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q103_binary_tree_zigzag_level_order_traversal/Solution.java)|
+|104|Maximum Depth of Binary Tree|Easy|100.00|94.62|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q104_maximum_depth_of_binary_tree/Solution.java)|
+|105|Construct Binary Tree from Preorder and Inorder Traversal|Medium|45.14|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q105_construct_binary_tree_from_preorder_and_inorder_traversal/Solution.java)|
+|106|Construct Binary Tree from Inorder and Postorder Traversal|Medium|38.33|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q106_construct_binary_tree_from_inorder_and_postorder_traversal/Solution.java)|
+|108|Convert Sorted Array to Binary Search Tree|Easy|100.00|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q108_convert_sorted_array_to_binary_search_tree/Solution.java)|
+|116|Populating Next Right Pointers in Each Node|Medium|22.18|37.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q116_populating_next_right_pointers_in_each_node/Solution.java)|
+|118|Pascal's Triangle|Easy|100.00|7.23|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q118_pascals_triangle/Solution.java)|
+|120|Triangle|Medium|30.93|36.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q120_triangle/Solution.java)|
+|121|Best Time to Buy and Sell Stock|Easy|79.37|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q121_best_time_to_buy_and_sell_stock/Solution.java)|
+|122|Best Time to Buy and Sell Stock II|Medium|91.86|36.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q122_best_time_to_buy_and_sell_stock_ii/Solution.java)|
+|124|Binary Tree Maximum Path Sum|Hard|99.80|98.81|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q124_binary_tree_maximum_path_sum/Solution.java)|
+|125|Valid Palindrome|Easy|56.06|37.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q125_valid_palindrome/Solution.java)|
+|127|Word Ladder|Hard|21.82|38.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q127_word_ladder/Solution.java)|
+|128|Longest Consecutive Sequence|Medium|5.00|39.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q128_longest_consecutive_sequence/Solution.java)|
+|130|Surrounded Regions|Medium|17.47|40.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q130_surrounded_regions/Solution.java)|
+|134|Gas Station|Medium|100.00|37.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q134_gas_station/Solution.java)|
+|136|Single Number|Easy|100.00|39.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q136_single_number/Solution.java)|
+|138|Copy List with Random Pointer|Medium|74.63|35.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q138_copy_list_with_random_pointer/Solution.java)|
+|139|Word Break|Medium|99.58|35.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q139_word_break/Solution.java)|
+|141|Linked List Cycle|Easy|6.73|38.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q141_linked_list_cycle/Solution.java)|
+|146|LRU Cache|Medium|75.89|56.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q146_lru_cache/LRUCache.java)|
+|148|Sort List|Medium|5.03|94.74|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q148_sort_list/Solution.java)|
+|150|Evaluate Reverse Polish Notation|Medium|79.58|37.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q150_evaluate_reverse_polish_notation/Solution.java)|
+|155|Min Stack|Medium|89.12|40.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q155_min_stack/MinStack.java)|
+|160|Intersection of Two Linked Lists|Easy|13.81|38.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q160_intersection_of_two_linked_lists/Solution.java)|
+|162|Find Peak Element|Medium|100.00|37.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q162_find_peak_element/Solution.java)|
+|169|Majority Element|Easy|46.06|39.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q169_majority_element/Solution.java)|
+|171|Excel Sheet Column Number|Easy|5.73|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q171_excel_sheet_column_number/Solution.java)|
+|172|Factorial Trailing Zeroes|Medium|100.00|33.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q172_factorial_trailing_zeroes/Solution.java)|
+|179|Largest Number|Medium|47.12|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q179_largest_number/Solution.java)|
+|189|Rotate Array|Medium|52.39|37.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q189_rotate_array/Solution.java)|
+|190|Reverse Bits|Easy|100.00|29.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q190_reverse_bits/Solution.java)|
+|191|Number of 1 Bits|Easy|100.00|33.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q191_number_of_1_bits/Solution.java)|
+|198|House Robber|Medium|100.00|34.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q198_house_robber/Solution.java)|
+|200|Number of Islands|Medium|100.00|40.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q200_number_of_islands/Solution.java)|
+|202|Happy Number|Easy|63.75|33.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q202_happy_number/Solution.java)|
+|204|Count Primes|Medium|70.90|34.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q204_count_primes/Solution.java)|
+|206|Reverse Linked List|Easy|100.00|37.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q206_reverse_linked_list/Solution.java)|
+|208|Implement Trie (Prefix Tree)|Medium|76.72|52.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q208_implement_trie_prefix_tree/Trie.java)|
+|215|Kth Largest Element in an Array|Medium|53.27|52.33|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q215_kth_largest_element_in_an_array/Solution.java)|
+|217|Contains Duplicate|Easy|57.49|43.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q217_contains_duplicate/Solution.java)|
+|230|Kth Smallest Element in a BST|Medium|73.05|37.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q230_kth_smallest_element_in_a_bst/Solution.java)|
+|234|Palindrome Linked List|Easy|39.47|40.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q234_palindrome_linked_list/Solution.java)|
+|236|Lowest Common Ancestor of a Binary Tree|Medium|77.68|34.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q236_lowest_common_ancestor_of_a_binary_tree/Solution.java)|
+|237|Delete Node in a Linked List|Medium|100.00|100.00|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q237-delete-node-in-a-linked-list/237.delete-node-in-a-linked-list.go)|
+|237|Delete Node in a Linked List|Medium|100.00|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q237_delete_node_in_a_linked_list/Solution.java)|
+|238|Product of Array Except Self|Medium|13.24|42.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q238_product_of_array_except_self/Solution.java)|
+|239|Sliding Window Maximum|Hard|23.60|40.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q239_sliding_window_maximum/Solution.java)|
+|240|Search a 2D Matrix II|Medium|100.00|42.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q240_search_a_2d_matrix_ii/Solution.java)|
+|242|Valid Anagram|Easy|79.98|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q242_valid_anagram/Solution.java)|
+|268|Missing Number|Easy|100.00|38.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q268_missing_number/Solution.java)|
+|279|Perfect Squares|Medium|93.71|35.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q279_perfect_squares/Solution.java)|
+|283|Move Zeroes|Easy|100.00|37.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q283_move_zeroes/Solution.java)|
+|287|Find the Duplicate Number|Medium|27.12|36.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q287_find_the_duplicate_number/Solution.java)|
+|289|Game of Life|Medium|100.00|34.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q289_game_of_life/Solution.java)|
+|295|Find Median from Data Stream|Hard|6.42|67.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q295_find_median_from_data_stream/MedianFinder.java)|
+|300|Longest Increasing Subsequence|Medium|64.56|36.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q300_longest_increasing_subsequence/Solution.java)|
+|315|Count of Smaller Numbers After Self|Hard|16.59|38.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q315_count_of_smaller_numbers_after_self/Solution.java)|
+|322|Coin Change|Medium|84.99|94.67|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q322_coin_change/Solution.java)|
+|326|Power of Three|Easy|80.68|35.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q326_power_of_three/Solution.java)|
+|328|Odd Even Linked List|Medium|100.00|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q328_odd_even_linked_list/Solution.java)|
+|334|Increasing Triplet Subsequence|Medium|100.00|38.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q334_increasing_triplet_subsequence/Solution.java)|
+|341|Flatten Nested List Iterator|Medium|69.50|37.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q341_flatten_nested_list_iterator/Solution.java)|
+|344|Reverse String|Easy|83.46|86.51|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q344-reverse-string/344.reverse-string.go)|
+|344|Reverse String|Easy|100.00|51.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q344_reverse_string/Solution.java)|
+|347|Top K Frequent Elements|Medium|32.13|40.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q347_top_k_frequent_elements/Solution.java)|
+|349|Intersection of Two Arrays|Easy|37.05|37.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q349_intersection_of_two_arrays/Solution.java)|
+|350|Intersection of Two Arrays II|Easy|93.37|37.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q350_intersection_of_two_arrays_ii/Solution.java)|
+|371|Sum of Two Integers|Medium|100.00|32.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q371_sum_of_two_integers/Solution.java)|
+|378|Kth Smallest Element in a Sorted Matrix|Medium|39.29|70.27|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q378_kth_smallest_element_in_a_sorted_matrix/Solution.java)|
+|380|Insert Delete GetRandom O(1)|Medium|58.14|46.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q380_insert_delete_getrandom_o1/Solution.java)|
+|384|Shuffle an Array|Medium|9.71|61.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q384_shuffle_an_array/Solution.java)|
+|387|First Unique Character in a String|Easy|60.56|38.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q387_first_unique_character_in_a_string/Solution.java)|
+|429|N-ary Tree Level Order Traversal|Medium|99.97|40.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q429_n_ary_tree_level_order_traversal/Solution.java)|
+|454|4Sum II|Medium|43.70|12.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q454_4sum_ii/Solution.java)|
+|509|Fibonacci Number|Easy|100.00|33.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q509_fibonacci_number/Solution.java)|
+|535|Encode and Decode TinyURL|Medium|100.00|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q535_encode_and_decode_tinyurl/Codec.java)|
+|557|Reverse Words in a String III|Easy|83.82|37.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q557_reverse_words_in_a_string_iii/Solution.java)|
+|559|Maximum Depth of N-ary Tree|Easy|100.00|38.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q559_maximum_depth_of_n_ary_tree/Solution.java)|
+|561|Array Partition|Easy|92.74|39.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q561_array_partition_i/Solution.java)|
+|589|N-ary Tree Preorder Traversal|Easy|98.44|40.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q589_n_ary_tree_preorder_traversal/Solution.java)|
+|590|N-ary Tree Postorder Traversal|Easy|98.37|39.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q590_n_ary_tree_postorder_traversal/Solution.java)|
+|617|Merge Two Binary Trees|Easy|100.00|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q617_merge_two_binary_trees/Solution.java)|
+|654|Maximum Binary Tree|Medium|100.00|37.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q654_maximum_binary_tree/Solution.java)|
+|657|Robot Return to Origin|Easy|97.92|37.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q657_robot_return_to_origin/Solution.java)|
+|700|Search in a Binary Search Tree|Easy|100.00|38.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q700_search_in_a_binary_search_tree/Solution.java)|
+|701|Insert into a Binary Search Tree|Medium|100.00|39.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q701_insert_into_a_binary_search_tree/Solution.java)|
+|709|To Lower Case|Easy|100.00|34.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q709_to_lower_case/Solution.java)|
+|728|Self Dividing Numbers|Easy|73.44|33.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q728_self_dividing_numbers/Solution.java)|
+|771|Jewels and Stones|Easy|94.30|34.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q771_jewels_and_stones/Solution.java)|
+|804|Unique Morse Code Words|Easy|100.00|35.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q804_unique_morse_code_words/Solution.java)|
+|807|Max Increase to Keep City Skyline|Medium|100.00|43.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q807_max_increase_to_keep_city_skyline/Solution.java)|
+|811|Subdomain Visit Count|Medium|82.69|37.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q811_subdomain_visit_count/Solution.java)|
+|814|Binary Tree Pruning|Medium|100.00|34.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q814_binary_tree_pruning/Solution.java)|
+|821|Shortest Distance to a Character|Easy|99.14|36.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q821_shortest_distance_to_a_character/Solution.java)|
+|832|Flipping an Image|Easy|100.00|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q832_flipping_an_image/Solution.java)|
+|852|Peak Index in a Mountain Array|Medium|100.00|38.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q852_peak_index_in_a_mountain_array/Solution.java)|
+|861|Score After Flipping Matrix|Medium|100.00|37.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q861_score_after_flipping_matrix/Solution.java)|
+|876|Middle of the Linked List|Easy|100.00|34.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q876_middle_of_the_linked_list/Solution.java)|
+|883|Projection Area of 3D Shapes|Easy|100.00|42.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q883_projection_area_of_3d_shapes/Solution.java)|
+|890|Find and Replace Pattern|Medium|94.38|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q890_find_and_replace_pattern/Solution.java)|
+|897|Increasing Order Search Tree|Easy|100.00|43.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q897_increasing_order_search_tree/Solution.java)|
+|905|Sort Array By Parity|Easy|100.00|39.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q905_sort_array_by_parity/Solution.java)|
+|921|Minimum Add to Make Parentheses Valid|Medium|100.00|34.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q921_minimum_add_to_make_parentheses_valid/Solution.java)|
+|922|Sort Array By Parity II|Easy|99.66|41.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q922_sort_array_by_parity_ii/Solution.java)|
+|929|Unique Email Addresses|Easy|96.92|38.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q929_unique_email_addresses/Solution.java)|
+|938|Range Sum of BST|Easy|100.00|45.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q938_range_sum_of_bst/Solution.java)|
+|961|N-Repeated Element in Size 2N Array|Easy|100.00|38.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q961_n_repeated_element_in_size_2n_array/Solution.java)|
+|965|Univalued Binary Tree|Easy|100.00|34.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q965_univalued_binary_tree/Solution.java)|
+|977|Squares of a Sorted Array|Easy|69.25|40.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q977_squares_of_a_sorted_array/Solution.java)|
+|1002|Find Common Characters|Easy|100.00|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1002_find_common_characters/Solution.java)|
+|1008|Construct Binary Search Tree from Preorder Traversal|Medium|100.00|35.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1008_construct_binary_search_tree_from_preorder_traversal/Solution.java)|
+|1021|Remove Outermost Parentheses|Easy|98.15|37.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1021_remove_outermost_parentheses/Solution.java)|
+|1038|Binary Search Tree to Greater Sum Tree|Medium|100.00|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1038_binary_search_tree_to_greater_sum_tree/Solution.java)|
+|1047|Remove All Adjacent Duplicates In String|Easy|71.81|37.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1047_remove_all_adjacent_duplicates_in_string/Solution.java)|
+|1051|Height Checker|Easy|87.78|34.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1051_height_checker/Solution.java)|
+|1108|Defanging an IP Address|Easy|100.00|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1108_defanging_an_ip_address/Solution.java)|
+|1122|Relative Sort Array|Easy|100.00|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1122_relative_sort_array/Solution.java)|
+|1160|Find Words That Can Be Formed by Characters|Easy|96.79|36.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1160_find_words_that_can_be_formed_by_characters/Solution.java)|
+|1207|Unique Number of Occurrences|Easy|88.45|35.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1207_unique_number_of_occurrences/Solution.java)|
+|1221|Split a String in Balanced Strings|Easy|100.00|33.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1221_split_a_string_in_balanced_strings/Solution.java)|
+|1252|Cells with Odd Values in a Matrix|Easy|90.64|35.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1252_cells_with_odd_values_in_a_matrix/Solution.java)|
+|1266|Minimum Time Visiting All Points|Easy|84.70|43.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1266_minimum_time_visiting_all_points/Solution.java)|
+|1281|Subtract the Product and Sum of Digits of an Integer|Easy|100.00|32.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1281_subtract_the_product_and_sum_of_digits_of_an_integer/Solution.java)|
+|1282|Group the People Given the Group Size They Belong To|Medium|86.10|37.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1282_group_the_people_given_the_group_size_they_belong_to/Solution.java)|
+|1295|Find Numbers with Even Number of Digits|Easy|98.57|38.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1295_find_numbers_with_even_number_of_digits/Solution.java)|

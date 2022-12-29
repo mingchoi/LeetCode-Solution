@@ -44,7 +44,7 @@ func ParseJavaSolution() []Result {
 		for scanner.Scan() {
 			text := scanner.Text()
 			if strings.HasPrefix(text, "Runtime:") {
-				results = append(results, extractOldLeetCodeResult(Id, scanner))
+				results = append(results, extractOldLeetCodeResult(Id, filesPath[i], scanner))
 			}
 		}
 	}
@@ -52,7 +52,7 @@ func ParseJavaSolution() []Result {
 	return results
 }
 
-func extractOldLeetCodeResult(Id string, scanner *bufio.Scanner) Result {
+func extractOldLeetCodeResult(Id, path string, scanner *bufio.Scanner) Result {
 	/*
 		example:
 		Runtime: 1 ms, faster than 100.00% of Java online submissions for Find Common Characters.
@@ -92,5 +92,6 @@ func extractOldLeetCodeResult(Id string, scanner *bufio.Scanner) Result {
 		MemoryBeat:  memoryBeatFloat,
 		MemoryMB:    memoryUsedFloat,
 		Language:    "Java",
+		Path:        path,
 	}
 }
