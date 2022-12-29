@@ -1,4 +1,4 @@
-package topic_strings
+package solutions
 
 type ListNode struct {
 	Val  int

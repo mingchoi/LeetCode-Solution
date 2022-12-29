@@ -1,4 +1,4 @@
-package topic_strings
+package solutions
 
 import "testing"
 
