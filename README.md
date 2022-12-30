@@ -6,18 +6,19 @@ Here are the result: (higher is better, max at 100)
 
 |difficulty|total|runtime beat(avg)|memory beat(avg)|
 |---|---|---|---|
-|Easy|78|86.82|42.70|
-|Medium|82|72.12|43.51|
+|Easy|79|86.99|43.34|
+|Medium|84|72.21|44.17|
 |Hard|9|37.05|53.38|
-|Total|169|77.04|43.66|
+|Total|172|77.16|44.27|
 
-|id|title|difficulty|runtime beat|memory beat|lang/code|
+|id|title|difficulty|runtime beat|memory beat|lang/ code|
 |---|---|---|---|---|---|
 |1|Two Sum|Easy|96.22|48.53|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q1-two-sum/1.two-sum.go)|
 |1|Two Sum|Easy|98.93|38.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1_two_sum/Solution.java)|
 |2|Add Two Numbers|Medium|79.53|42.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q2_add_two_numbers/Solution.java)|
 |3|Longest Substring Without Repeating Characters|Medium|65.68|36.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q3_longest_substring_without_repeating_characters/Solution.java)|
 |4|Median of Two Sorted Arrays|Hard|99.97|46.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q4_median_of_two_sorted_arrays/Solution.java)|
+|5|Longest Palindromic Substring|Medium|93.56|81.55|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q5-longest-palindromic-substring/5.longest-palindromic-substring.go)|
 |7|Reverse Integer|Medium|24.62|33.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q7_reverse_integer/Solution.java)|
 |11|Container With Most Water|Medium|95.43|94.87|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q11_container_with_most_water/Solution.java)|
 |13|Roman to Integer|Easy|59.18|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q13_roman_to_integer/Solution.java)|
@@ -41,6 +42,7 @@ Here are the result: (higher is better, max at 100)
 |46|Permutations|Medium|97.03|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q46_permutations/Solution.java)|
 |48|Rotate Image|Medium|100.00|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q48_rotate_image/Solution.java)|
 |49|Group Anagrams|Medium|31.73|40.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q49_group_anagrams/Solution.java)|
+|54|Spiral Matrix|Medium|57.99|61.07|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q54-spiral-matrix_test/54.spiral-matrix.go)|
 |55|Jump Game|Medium|99.09|40.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q55_jump_game/Solution.java)|
 |62|Unique Paths|Medium|100.00|32.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q62_unique_paths/Solution.java)|
 |66|Plus One|Easy|100.00|35.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q66_plus_one/Solution.java)|
@@ -67,6 +69,7 @@ Here are the result: (higher is better, max at 100)
 |121|Best Time to Buy and Sell Stock|Easy|79.37|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q121_best_time_to_buy_and_sell_stock/Solution.java)|
 |122|Best Time to Buy and Sell Stock II|Medium|91.86|36.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q122_best_time_to_buy_and_sell_stock_ii/Solution.java)|
 |124|Binary Tree Maximum Path Sum|Hard|99.80|98.81|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q124_binary_tree_maximum_path_sum/Solution.java)|
+|125|Valid Palindrome|Easy|100.00|93.03|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q125-valid-palindrome/125.valid-palindrome.go)|
 |125|Valid Palindrome|Easy|56.06|37.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q125_valid_palindrome/Solution.java)|
 |127|Word Ladder|Hard|21.82|38.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q127_word_ladder/Solution.java)|
 |128|Longest Consecutive Sequence|Medium|5.00|39.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q128_longest_consecutive_sequence/Solution.java)|

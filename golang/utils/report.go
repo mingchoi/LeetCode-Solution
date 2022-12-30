@@ -54,7 +54,7 @@ type ReportResultRow struct {
 }
 
 func (row ReportResultRow) ToMarkdownTitle() string {
-	return "|id|title|difficulty|runtime beat|memory beat|lang/code|\n|---|---|---|---|---|---|\n"
+	return "|id|title|difficulty|runtime beat|memory beat|lang/ code|\n|---|---|---|---|---|---|\n"
 }
 
 func (row ReportResultRow) ToMarkdown() string {
