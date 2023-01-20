@@ -11,6 +11,8 @@ func TestReverseString(t *testing.T) {
 			input []int
 			want  int
 		}{
+			{[]int{-2}, -2},
+			{[]int{9, -4, -7, 9}, 18},
 			{[]int{1, -2, 3, -2}, 3},
 			{[]int{5, -3, 5}, 10},
 			{[]int{5, -3, 4}, 9},
