@@ -6,10 +6,10 @@ Here are the result: (higher is better, max at 100)
 
 |difficulty|total|runtime beat(avg)|memory beat(avg)|
 |---|---|---|---|
-|Easy|79|86.99|43.34|
-|Medium|84|72.21|44.17|
+|Easy|80|87.07|44.04|
+|Medium|87|72.80|45.29|
 |Hard|9|37.05|53.38|
-|Total|172|77.16|44.27|
+|Total|176|77.46|45.14|
 
 |id|title|difficulty|runtime beat|memory beat|lang/ code|
 |---|---|---|---|---|---|
@@ -29,6 +29,7 @@ Here are the result: (higher is better, max at 100)
 |20|Valid Parentheses|Easy|98.86|34.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q20_valid_parentheses/Solution.java)|
 |21|Merge Two Sorted Lists|Easy|22.11|8.08|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q21_merge_two_sorted_lists/Solution.java)|
 |22|Generate Parentheses|Medium|94.68|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q22_generate_parentheses/Solution.java)|
+|26|Remove Duplicates from Sorted Array|Easy|93.75|100.00|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q26-remove-duplicates-from-sorted-array/26.remove-duplicates-from-sorted-array.go)|
 |26|Remove Duplicates from Sorted Array|Easy|97.79|41.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q26_remove_duplicates_from_sorted_array/Solution.java)|
 |27|Remove Element|Easy|100.00|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q27_remove_element/Solution.java)|
 |28|Find the Index of the First Occurrence in a String|Medium|5.64|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q28_implement_strstr/Solution.java)|
@@ -42,8 +43,10 @@ Here are the result: (higher is better, max at 100)
 |46|Permutations|Medium|97.03|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q46_permutations/Solution.java)|
 |48|Rotate Image|Medium|100.00|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q48_rotate_image/Solution.java)|
 |49|Group Anagrams|Medium|31.73|40.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q49_group_anagrams/Solution.java)|
+|53|Maximum Subarray|Medium|99.65|99.39|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q53-maximum-subarray/53.maximum-subarray.go)|
 |54|Spiral Matrix|Medium|57.99|61.07|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q54-spiral-matrix_test/54.spiral-matrix.go)|
 |55|Jump Game|Medium|99.09|40.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q55_jump_game/Solution.java)|
+|56|Merge Intervals|Medium|80.15|61.34|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q56-merge-intervals/56.merge-intervals.go)|
 |62|Unique Paths|Medium|100.00|32.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q62_unique_paths/Solution.java)|
 |66|Plus One|Easy|100.00|35.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q66_plus_one/Solution.java)|
 |69|Sqrt(x)|Easy|100.00|33.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q69_sqrtx/Solution.java)|
@@ -162,6 +165,7 @@ Here are the result: (higher is better, max at 100)
 |890|Find and Replace Pattern|Medium|94.38|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q890_find_and_replace_pattern/Solution.java)|
 |897|Increasing Order Search Tree|Easy|100.00|43.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q897_increasing_order_search_tree/Solution.java)|
 |905|Sort Array By Parity|Easy|100.00|39.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q905_sort_array_by_parity/Solution.java)|
+|918|Maximum Sum Circular Subarray|Medium|87.92|69.08|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q918-maximum-sum-circular-subarray/918.maximum-sum-circular-subarray.go)|
 |921|Minimum Add to Make Parentheses Valid|Medium|100.00|34.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q921_minimum_add_to_make_parentheses_valid/Solution.java)|
 |922|Sort Array By Parity II|Easy|99.66|41.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q922_sort_array_by_parity_ii/Solution.java)|
 |929|Unique Email Addresses|Easy|96.92|38.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q929_unique_email_addresses/Solution.java)|
