@@ -1,7 +1,6 @@
 package solutions
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -19,8 +18,19 @@ func maxSubarraySumCircular(nums []int) int {
 	length := len(nums) * 2
 	for i := 1; i < length; i++ {
 		index := i % len(nums)
+		if i-sumIndex >= len(nums) {
+			sum -= nums[sumIndex]
+			sumIndex += 1
+			jSum := sum
+			for j := sumIndex; j < i; j++ {
+				jSum = jSum - nums[j%len(nums)]
+				if jSum > sum {
+					sum = jSum
+					sumIndex = j + 1
+				}
+			}
+		}
 		newSum := sum + nums[index]
-		fmt.Printf("i=%v, newSum=%v, sum=%v, sumIndex=%v\n", i, newSum, sum, sumIndex)
 		if newSum > nums[index] {
 			sum = newSum
 		} else {
@@ -29,11 +39,6 @@ func maxSubarraySumCircular(nums []int) int {
 		}
 		if sum > max {
 			max = sum
-		}
-		if i-sumIndex+1 >= len(nums) {
-			fmt.Println("too long!")
-			sum = nums[index]
-			sumIndex = i
 		}
 	}
 	return max
