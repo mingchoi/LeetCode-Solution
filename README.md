@@ -6,10 +6,10 @@ Here are the result: (higher is better, max at 100)
 
 |difficulty|total|runtime beat(avg)|memory beat(avg)|
 |---|---|---|---|
-|Easy|91|87.54|48.27|
-|Medium|91|73.42|46.27|
+|Easy|99|87.15|49.55|
+|Medium|93|73.99|46.39|
 |Hard|9|37.05|53.38|
-|Total|191|78.43|47.56|
+|Total|201|78.82|48.26|
 
 |id|title|difficulty|runtime beat|memory beat|lang/ code|
 |---|---|---|---|---|---|
@@ -19,11 +19,13 @@ Here are the result: (higher is better, max at 100)
 |3|Longest Substring Without Repeating Characters|Medium|65.68|36.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q3_longest_substring_without_repeating_characters/Solution.java)|
 |4|Median of Two Sorted Arrays|Hard|99.97|46.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q4_median_of_two_sorted_arrays/Solution.java)|
 |5|Longest Palindromic Substring|Medium|93.56|81.55|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q5-longest-palindromic-substring/5.longest-palindromic-substring.go)|
+|7|Reverse Integer|Medium|100.00|56.43|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q7-reverse-integer/7.reverse-integer.go)|
 |7|Reverse Integer|Medium|24.62|33.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q7_reverse_integer/Solution.java)|
 |9|Palindrome Number|Easy|85.17|100.00|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q9-palindrome-number/9.palindrome-number.go)|
 |11|Container With Most Water|Medium|95.43|94.87|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q11_container_with_most_water/Solution.java)|
 |13|Roman to Integer|Easy|97.07|100.00|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q13-roman-to-integer/13.roman-to-integer.go)|
 |13|Roman to Integer|Easy|59.18|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q13_roman_to_integer/Solution.java)|
+|14|Longest Common Prefix|Easy|40.73|37.18|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q14-longest-common-prefix/14.longest-common-prefix.go)|
 |14|Longest Common Prefix|Easy|74.39|35.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q14_longest_common_prefix/Solution.java)|
 |17|Letter Combinations of a Phone Number|Medium|59.45|35.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q17_letter_combinations_of_a_phone_number/Solution.java)|
 |19|Remove Nth Node From End of List|Medium|100.00|73.24|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q19-remove-nth-node-from-end-of-list/19.remove-nth-node-from-end-of-list.go)|
@@ -35,6 +37,7 @@ Here are the result: (higher is better, max at 100)
 |26|Remove Duplicates from Sorted Array|Easy|93.75|100.00|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q26-remove-duplicates-from-sorted-array/26.remove-duplicates-from-sorted-array.go)|
 |26|Remove Duplicates from Sorted Array|Easy|97.79|41.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q26_remove_duplicates_from_sorted_array/Solution.java)|
 |27|Remove Element|Easy|100.00|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q27_remove_element/Solution.java)|
+|28|Find the Index of the First Occurrence in a String|Medium|100.00|47.07|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q28-find-the-index-of-the-first-occurrence-in-a-string/28.find-the-index-of-the-first-occurrence-in-a-string.go)|
 |28|Find the Index of the First Occurrence in a String|Medium|5.64|37.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q28_implement_strstr/Solution.java)|
 |33|Search in Rotated Sorted Array|Medium|100.00|40.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q33_search_in_rotated_sorted_array/Solution.java)|
 |34|Find First and Last Position of Element in Sorted Array|Medium|14.89|43.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q34_find_first_and_last_position_of_element_in_sorted_array/Solution.java)|
@@ -59,6 +62,7 @@ Here are the result: (higher is better, max at 100)
 |75|Sort Colors|Medium|100.00|35.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q75_sort_colors/Solution.java)|
 |78|Subsets|Medium|5.09|37.60|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q78_subsets/Solution.java)|
 |84|Largest Rectangle in Histogram|Hard|21.90|75.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q84_largest_rectangle_in_histogram/Solution.java)|
+|88|Merge Sorted Array|Easy|67.89|53.27|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q88-merge-sorted-array/88.merge-sorted-array.go)|
 |88|Merge Sorted Array|Easy|100.00|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q88_merge_sorted_array/Solution.java)|
 |91|Decode Ways|Medium|98.53|34.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q91_decode_ways/Solution.java)|
 |94|Binary Tree Inorder Traversal|Easy|100.00|34.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q94_binary_tree_inorder_traversal/Solution.java)|
@@ -114,6 +118,7 @@ Here are the result: (higher is better, max at 100)
 |208|Implement Trie (Prefix Tree)|Medium|76.72|52.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q208_implement_trie_prefix_tree/Trie.java)|
 |215|Kth Largest Element in an Array|Medium|53.27|52.33|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q215_kth_largest_element_in_an_array/Solution.java)|
 |217|Contains Duplicate|Easy|57.49|43.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q217_contains_duplicate/Solution.java)|
+|219|Contains Duplicate II|Easy|88.07|43.51|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q219-contains-duplicate-ii/219.contains-duplicate-ii.go)|
 |230|Kth Smallest Element in a BST|Medium|73.05|37.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q230_kth_smallest_element_in_a_bst/Solution.java)|
 |234|Palindrome Linked List|Easy|39.47|40.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q234_palindrome_linked_list/Solution.java)|
 |236|Lowest Common Ancestor of a Binary Tree|Medium|77.68|34.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q236_lowest_common_ancestor_of_a_binary_tree/Solution.java)|
@@ -122,8 +127,11 @@ Here are the result: (higher is better, max at 100)
 |238|Product of Array Except Self|Medium|13.24|42.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q238_product_of_array_except_self/Solution.java)|
 |239|Sliding Window Maximum|Hard|23.60|40.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q239_sliding_window_maximum/Solution.java)|
 |240|Search a 2D Matrix II|Medium|100.00|42.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q240_search_a_2d_matrix_ii/Solution.java)|
+|242|Valid Anagram|Easy|100.00|100.00|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q242-valid-anagram/242.valid-anagram.go)|
 |242|Valid Anagram|Easy|79.98|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q242_valid_anagram/Solution.java)|
+|268|Missing Number|Easy|97.20|54.76|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q268-missing-number.go/268.missing-number.go)|
 |268|Missing Number|Easy|100.00|38.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q268_missing_number/Solution.java)|
+|278|First Bad Version|Easy|100.00|66.86|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q278-first-bad-version/278.first-bad-version.go)|
 |279|Perfect Squares|Medium|93.71|35.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q279_perfect_squares/Solution.java)|
 |283|Move Zeroes|Easy|100.00|37.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q283_move_zeroes/Solution.java)|
 |287|Find the Duplicate Number|Medium|27.12|36.70|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q287_find_the_duplicate_number/Solution.java)|
@@ -147,6 +155,7 @@ Here are the result: (higher is better, max at 100)
 |380|Insert Delete GetRandom O(1)|Medium|58.14|46.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q380_insert_delete_getrandom_o1/Solution.java)|
 |384|Shuffle an Array|Medium|87.41|54.81|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q384-shuffle-an-array/384.shuffle-an-array.go)|
 |384|Shuffle an Array|Medium|9.71|61.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q384_shuffle_an_array/Solution.java)|
+|387|First Unique Character in a String|Easy|89.98|68.67|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q387-first-unique-character-in-a-string/387.first-unique-character-in-a-string.go)|
 |387|First Unique Character in a String|Easy|60.56|38.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q387_first_unique_character_in_a_string/Solution.java)|
 |412|Fizz Buzz|Easy|92.66|99.88|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q412-fizz-buzz/412.fizz-buzz.go)|
 |429|N-ary Tree Level Order Traversal|Medium|99.97|40.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q429_n_ary_tree_level_order_traversal/Solution.java)|
@@ -204,3 +213,4 @@ Here are the result: (higher is better, max at 100)
 |1281|Subtract the Product and Sum of Digits of an Integer|Easy|100.00|32.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1281_subtract_the_product_and_sum_of_digits_of_an_integer/Solution.java)|
 |1282|Group the People Given the Group Size They Belong To|Medium|86.10|37.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1282_group_the_people_given_the_group_size_they_belong_to/Solution.java)|
 |1295|Find Numbers with Even Number of Digits|Easy|98.57|38.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1295_find_numbers_with_even_number_of_digits/Solution.java)|
+|2248|Intersection of Multiple Arrays|Easy|78.26|89.13|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q2248-intersection-of-multiple-arrays/2248.intersection-of-multiple-arrays.go)|
