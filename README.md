@@ -6,10 +6,10 @@ Here are the result: (higher is better, max at 100)
 
 |difficulty|total|runtime beat(avg)|memory beat(avg)|
 |---|---|---|---|
-|Easy|99|87.15|49.55|
+|Easy|101|87.30|49.80|
 |Medium|93|73.99|46.39|
 |Hard|9|37.05|53.38|
-|Total|201|78.82|48.26|
+|Total|203|78.98|48.40|
 
 |id|title|difficulty|runtime beat|memory beat|lang/ code|
 |---|---|---|---|---|---|
@@ -70,6 +70,7 @@ Here are the result: (higher is better, max at 100)
 |101|Symmetric Tree|Easy|100.00|39.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q101_symmetric_tree/Solution.java)|
 |102|Binary Tree Level Order Traversal|Medium|100.00|36.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q102_binary_tree_level_order_traversal/Solution.java)|
 |103|Binary Tree Zigzag Level Order Traversal|Medium|92.68|36.30|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q103_binary_tree_zigzag_level_order_traversal/Solution.java)|
+|104|Maximum Depth of Binary Tree|Easy|89.41|60.14|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q104-maximum-depth-of-binary-tree/104.maximum-depth-of-binary-tree.go)|
 |104|Maximum Depth of Binary Tree|Easy|100.00|94.62|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q104_maximum_depth_of_binary_tree/Solution.java)|
 |105|Construct Binary Tree from Preorder and Inorder Traversal|Medium|45.14|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q105_construct_binary_tree_from_preorder_and_inorder_traversal/Solution.java)|
 |106|Construct Binary Tree from Inorder and Postorder Traversal|Medium|38.33|36.20|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q106_construct_binary_tree_from_inorder_and_postorder_traversal/Solution.java)|
@@ -213,4 +214,5 @@ Here are the result: (higher is better, max at 100)
 |1281|Subtract the Product and Sum of Digits of an Integer|Easy|100.00|32.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1281_subtract_the_product_and_sum_of_digits_of_an_integer/Solution.java)|
 |1282|Group the People Given the Group Size They Belong To|Medium|86.10|37.40|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1282_group_the_people_given_the_group_size_they_belong_to/Solution.java)|
 |1295|Find Numbers with Even Number of Digits|Easy|98.57|38.80|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q1295_find_numbers_with_even_number_of_digits/Solution.java)|
+|1614|Maximum Nesting Depth of the Parentheses|Easy|100.00|63.77|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q1614-maximum-nesting-depth-of-the-parentheses/1614.maximum-nesting-depth-of-the-parentheses.go)|
 |2248|Intersection of Multiple Arrays|Easy|78.26|89.13|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q2248-intersection-of-multiple-arrays/2248.intersection-of-multiple-arrays.go)|
