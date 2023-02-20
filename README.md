@@ -6,10 +6,10 @@ Here are the result: (higher is better, max at 100)
 
 |difficulty|total|runtime beat(avg)|memory beat(avg)|
 |---|---|---|---|
-|Easy|101|87.30|49.80|
+|Easy|102|87.21|49.63|
 |Medium|93|73.99|46.39|
 |Hard|9|37.05|53.38|
-|Total|203|78.98|48.40|
+|Total|204|78.97|48.32|
 
 |id|title|difficulty|runtime beat|memory beat|lang/ code|
 |---|---|---|---|---|---|
@@ -162,6 +162,7 @@ Here are the result: (higher is better, max at 100)
 |429|N-ary Tree Level Order Traversal|Medium|99.97|40.50|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q429_n_ary_tree_level_order_traversal/Solution.java)|
 |454|4Sum II|Medium|43.70|12.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q454_4sum_ii/Solution.java)|
 |461|Hamming Distance|Easy|45.05|72.97|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q461-hamming-distance/461.hamming-distance.go)|
+|495|Teemo Attacking|Easy|78.38|32.43|[Go](https://github.com/mingchoi/LeetCode-Solution/blob/master/golang/solutions/q495-teemo-attacking/495.teemo-attacking.go)|
 |509|Fibonacci Number|Easy|100.00|33.10|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q509_fibonacci_number/Solution.java)|
 |535|Encode and Decode TinyURL|Medium|100.00|100.00|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q535_encode_and_decode_tinyurl/Codec.java)|
 |557|Reverse Words in a String III|Easy|83.82|37.90|[Java](https://github.com/mingchoi/LeetCode-Solution/blob/master/java/src/main/java/io/github/mingchoi/leetcodesolutionjava/solution/q557_reverse_words_in_a_string_iii/Solution.java)|
